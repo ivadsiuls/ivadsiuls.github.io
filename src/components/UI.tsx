@@ -55,9 +55,9 @@ export function UI() {
                     }}/>
                 </ul>
                 <ul>
-                    <Devicon posx='65vw' posy='94vh' className='devicon-kotlin-plain' title=' Kotlin' color='white'/>
-                    <Devicon posx={isMobile() ? '65vw' : '44.5vw'} posy={isMobile() ? '90vh' : '94vh'} className='devicon-lua-plain' title=' Lua' color='white'/>
-                    <Devicon posx={isMobile() ? '65vw' : '54vw'} posy={isMobile() ? '86vh' : '94vh'} className='devicon-typescript-plain' title=' Typescript' color='white'/>
+                    <Devicon posx={isMobile() ? '65vw' : '59.5vw'} posy='94vh' className='devicon-kotlin-plain' title=' Kotlin' color='white'/>
+                    <Devicon posx={isMobile() ? '65vw' : '37vw'} posy={isMobile() ? '90vh' : '94vh'} className='devicon-lua-plain' title=' Lua' color='white'/>
+                    <Devicon posx={isMobile() ? '65vw' : '46vw'} posy={isMobile() ? '86vh' : '94vh'} className='devicon-typescript-plain' title=' Typescript' color='white'/>
                 </ul>
             </div>
         </>

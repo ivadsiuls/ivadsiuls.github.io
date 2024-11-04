@@ -10,13 +10,13 @@ export function UI() {
     return (
         <>
             <div>
-                <H1 title={'ivadsiuls'} posx={'3vw'} posy={'0vh'} color={'white'} fontSize={'1.2em'} />
+                <H1 title={'ivadsiuls'} posx={'3vw'} posy={'0vh'} color={'white'} fontSize={'1.2em'} className={'name-label'} />
                 <H1 title={'game developer / software engineer'} posx={'47vw'} posy={'0vh'} color={'white'} fontSize={'1em'} className={'inter-normal'} />
 
-                <H1 title={'crafting memorable'} posx={'47vw'} posy={'30vh'} color={'white'} fontSize={'2em'}  />
-                <H1 title={'experiences'} posx={'47vw'} posy={'30vh'} color={'transparent'} fontSize={'6em'} />
+                <H1 title={'crafting memorable'} posx={'47vw'} posy={'30vh'} color={'white'} fontSize={'2em'} className={'crafting-label'}/>
+                <H1 title={'experiences'} posx={'47vw'} posy={'30vh'} color={'transparent'} fontSize={'6em'} className={'experiences-label'} />
 
-                <H1 title={'one line of code at a time.'} posx={'47vw'} posy={'44vh'} color={'white'} fontSize={'1em'} className={'inter-normal'} />
+                <H1 title={'one line of code at a time.'} posx={'47vw'} posy={'44vh'} color={'white'} fontSize={'1em'} className={'line-label inter-normal'} />
                 <ul>
                     <SocialIcon label={'GITHUB'} url={'https://github.com/ivadsiuls'} style={{
                         position: 'absolute',

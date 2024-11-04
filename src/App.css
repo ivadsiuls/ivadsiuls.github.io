@@ -22,21 +22,18 @@ canvas {
 
 .inter-bold {
   font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
   font-weight: bolder;
   font-style: normal;
 }
 
 .inter-normal {
   font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
   font-weight: normal;
   font-style: normal;
 }
 
 .inter-light {
   font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
   font-weight: lighter;
   font-style: normal;
 }
@@ -46,4 +43,10 @@ canvas {
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+}
+
+@media (max-width: 720px) {
+  .experiences-label {
+    font-size: 1rem;
+  }
 }

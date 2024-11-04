@@ -123,7 +123,7 @@ function Background() {
 
     const handlePointerMove = (e: any) => {
         onMove(e)
-        console.log('Pointer move:', e.uv?.x, e.uv?.y)
+        // console.log('Pointer move:', e.uv?.x, e.uv?.y)
     }
 
     const scale = Math.max(viewport.width, viewport.height) / 2

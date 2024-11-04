@@ -1,5 +1,5 @@
 import { Environment, OrbitControls } from '@react-three/drei'
-import { NameObject } from './NameObject'
+// import { NameObject } from './NameObject'
 import DotScreenShader from './DotScreenShader.tsx'
 
 export function Experience() {
@@ -7,7 +7,6 @@ export function Experience() {
         <>
             <OrbitControls enableZoom={false} enableRotate={false}/>
             <Environment preset="sunset" />
-            <NameObject />
             <DotScreenShader />
         </>
     )

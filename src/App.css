@@ -44,9 +44,3 @@ canvas {
   background-clip: text;
   color: transparent;
 }
-
-@media (max-width: 720px) {
-  .experiences-label {
-    font-size: 1rem;
-  }
-}

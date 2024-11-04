@@ -11,7 +11,6 @@ import * as THREE from 'three'
 
 function App() {
 
-
   // disable scrolling
   document.body.style.overflow = "hidden"
 

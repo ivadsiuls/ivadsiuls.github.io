@@ -1,3 +1,4 @@
+// was testing out something, i'm not using tailwind for this project.
 // tailwind.config.js
 const {nextui} = require("@nextui-org/theme");
 

@@ -21,8 +21,8 @@ export function UI() {
     return (
         <>
             <div>
-                <H1 title={'ivadsiuls'} posx={isMobile() ? '15vw' : '3vw'} posy={'0'} color={'white'} fontSize={'1.2em'} className={'name-label'} />
-                <H1 title={'game developer / software engineer'} posx={isMobile() ? '52vw' : '50vw'} posy={isMobile() ? '1vh' : '0vh'} color={'white'} fontSize={isMobile() ? '0.6em' : '1em'} className={'inter-normal'} />
+                <H1 title={'ivadsiuls'} posx={isMobile() ? '15vw' : '5vw'} posy={'0vh'} color={'white'} fontSize={'1.2em'} className={'name-label'} />
+                <H1 title={'game developer / software engineer'} posx={isMobile() ? '52vw' : '50vw'} posy={isMobile() ? '1vh' : '0.7vh'} color={'white'} fontSize={isMobile() ? '0.6em' : '1em'} className={'inter-normal'} />
 
                 <H1 title={'crafting memorable'} posx={'50vw'} posy={'30vh'} color={'white'} fontSize={isMobile() ? '1em' : '2em'} className={'crafting-label'}/>
                 <H1 title={'experiences'} posx={'50vw'} posy={'30vh'} color={'transparent'} fontSize={isMobile() ? '3em' : '6em'} className={'experiences-label'} />
@@ -55,9 +55,9 @@ export function UI() {
                     }}/>
                 </ul>
                 <ul>
-                    <Devicon posx={isMobile() ? '60vw' : '59.5vw'} posy='94vh' className='devicon-kotlin-plain' title=' Kotlin' color='white'/>
                     <Devicon posx={isMobile() ? '60vw' : '37vw'} posy={isMobile() ? '90vh' : '94vh'} className='devicon-lua-plain' title=' Lua' color='white'/>
                     <Devicon posx={isMobile() ? '60vw' : '46vw'} posy={isMobile() ? '86vh' : '94vh'} className='devicon-typescript-plain' title=' Typescript' color='white'/>
+                    <Devicon posx={isMobile() ? '60vw' : '59.5vw'} posy='94vh' className='devicon-kotlin-plain' title=' Kotlin' color='white'/>
                 </ul>
             </div>
         </>

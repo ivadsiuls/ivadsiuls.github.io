@@ -14,7 +14,7 @@ export function UI() {
             return true
         }
         else {
-            return false // this helps
+            return true
         }
     };
 

@@ -4,7 +4,7 @@ console.log('wyd vro')
 
 document.querySelector('#app').innerHTML = `
   <div id="main" class="main-fade-in">
-    <img class="pfp" src="./public/pfp.png" alt="pfpImage"  width="256px" height="256px">
+    <img class="pfp" src="https://github.com/ivadsiuls/ivadsiuls.github.io/blob/main/public/pfp.png" alt="pfpImage"  width="256px" height="256px">
     <p class="name-header" >Hey, I'm</p>
     <p class="name" ><b>ivadsiuls</b></p>
     <p class="desc-header">programming for <b style="  background-image: linear-gradient(rgb(255, 255, 255), rgb(0, 0, 255)); color: transparent; background-clip: text;">6 years</b></p>

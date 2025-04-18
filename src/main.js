@@ -10,7 +10,7 @@ document.querySelector('#app').innerHTML = `
         <p class="desc-header">programming for <b style="  background-image: linear-gradient(rgb(255, 255, 255), rgb(0, 0, 255)); color: transparent; background-clip: text;">6 years</b></p>
         <p class="paragraph desc" >i'm a self-taught game dev/programmer
           <br>
-          who occasionally makes fun and high-quality.
+          who occasionally makes fun and high-quality games.
           <br>
           I use platforms like Godot and Roblox to make my games,
           <br>
